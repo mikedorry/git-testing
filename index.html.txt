@@ -1,1 +1,17 @@
 <h1>Hello World</h1>
+
+C:\Users\User\Documents\SSIS\source\Failed_Sales10312022.txt
+
+C:\Users\User\Documents\SSIS\source\Failed_Sales10312022
+
+
+
+C:\Users\User\Documents\SSIS\destination\\Failed_Sales.txt
+
+
+
+(DT_WSTR,4)DATEPART("yyyy",GetDate()) +
+RIGHT("0" + (DT_WSTR,2)DATEPART("mm",GetDate()) ,2) +
+RIGHT("0" + (DT_WSTR,2)DATEPART("dd",GetDate()),2) + "_" +
+RIGHT("0" + (DT_WSTR,2)DATEPART("hh",GetDate()),2)+
+RIGHT("0" + (DT_WSTR,2)DATEPART("mi",GetDate()),2)
